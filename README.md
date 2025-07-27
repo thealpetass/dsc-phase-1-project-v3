@@ -1,14 +1,10 @@
 # ✈️ Aircraft Accident Analytics Dashboard  
 > _“Turning decades of incident data into actionable safety insight.”_
 
----
-
 ## Overview
 This README accompanies the interactive **Aircraft Accident Analytics Dashboard** built from six core visualizations.  
 The data spans **1944-2010** and covers **~58,000 total occupants**, **668 fatal accidents**, and **millions of flight-hours**.  
 Use it to spot high-risk aircraft, weather conditions, flight phases, and temporal trends.
-
----
 
 ## Key Findings
 
@@ -21,8 +17,6 @@ Use it to spot high-risk aircraft, weather conditions, flight phases, and tempor
 | **Most-Damaged Phase** | **Landing** (~15 k events) |
 | **Safest Phase** | **Cruise** |
 | **Riskiest Weather** | **Approach & Landing** under **low IMC** |
-
----
 
 ## Visualization Deep-Dive
 
@@ -38,8 +32,6 @@ Use it to spot high-risk aircraft, weather conditions, flight phases, and tempor
 
 >  **Action**: Prioritize recurrent training & maintenance programs on Cessna 172 fleet.
 
----
-
 ### 2. Accidents by Weather Condition (`Accidents by Weather Condition.png`)
 - **Weather is not directly labeled**, but counts per phase are:
   - **Landing** (≈5,500 events)  
@@ -48,16 +40,12 @@ Use it to spot high-risk aircraft, weather conditions, flight phases, and tempor
 - **Interpretation**: These phases coincide with **transitional weather** (low ceilings, gusty winds).  
 >  **Action**: Emphasize **weather briefing** & **go-around discipline** during Landing/Approach.
 
----
-
 ### 3. Accidents per Year (`Accidents per Year.png`)
 - **Historical Trend**:  
   - Steep rise from **1950 → 1980** (peaks ~3,000 accidents/year).  
   - **Post-1990 sharp decline** (≈500 accidents/year by 2010).  
 - **Fatal vs Non-Fatal**: Fatal accidents track **non-fatal** trends, but at **~10 %** of total volume.  
 >  **Action**: Correlate the decline with **improved GA safety programs** (e.g., CRM, GPS, weather tools).
-
----
 
 ### 4. Fatality Rate by Year (`Fatality Rate by Year.png`)
 - **Rate Definition**: Fatalities ÷ Total Occupants per incident.  
@@ -66,8 +54,6 @@ Use it to spot high-risk aircraft, weather conditions, flight phases, and tempor
   - **1970s-1990s**: Plateau ~30–50 %.  
   - **2000-2010**: Drops to **<20 %**.  
 >  **Action**: Investigate life-saving factors—**airbags, fuel-system integrity, ELTs**.
-
----
 
 ### 5. Flight Phase vs Damage (`Flight Phase vs Damage.png`)
 | **Phase** | **Destroyed** | **Substantial** | **Minor** |
@@ -80,8 +66,6 @@ Use it to spot high-risk aircraft, weather conditions, flight phases, and tempor
 - **Landing & Takeoff** account for **>70 %** of **Destroyed** outcomes.  
 >  **Action**: Install **real-time energy management tools** (e.g., AoA indicators) in training aircraft.
 
----
-
 ### 6. Dashboard Overview (`Overlook of my Dashboard.png`)
 - **Single-screen summary** of all KPIs.  
 - **Interactive filters** on:  
@@ -93,16 +77,12 @@ Use it to spot high-risk aircraft, weather conditions, flight phases, and tempor
   - **Orange** = Substantial Damage  
   - **Green** = Minor / None  
 
----
-
 ## How to Use the Dashboard
 1. **Open the packaged workbook** (`.twbx` or `.pbix`).  
 2. **Select filters** on the right to isolate:
    - **Cessna 172** accidents during **Instructional** flights.  
    - **Landing phase** incidents with **Destroyed** outcome.  
 3. **Hover** on any bar or point for exact counts & percentages.
-
----
 
 ##  Recommendations for Stakeholders
 
@@ -112,8 +92,6 @@ Use it to spot high-risk aircraft, weather conditions, flight phases, and tempor
 | **Aircraft OEMs** | Retrofit **AoA indicators** & **improved seat restraints** in legacy 172/152 fleets. |
 | **Regulators (FAA/EASA)** | Mandate **recurrent weather training** & **night-currency** for PPL holders. |
 | **Insurance Underwriters** | Adjust premiums based on **Phase-of-Flight risk scores** derived from this dashboard. |
-
----
 
 ## 🗃 Data Dictionary
 | **Field** | **Type** | **Description** |
@@ -127,8 +105,6 @@ Use it to spot high-risk aircraft, weather conditions, flight phases, and tempor
 | `Total.Occupants` | Integer | People on board. |
 | `Fatality` | Integer | Fatalities per incident. |
 | `Fatality.Rate` | Float | Fatalities ÷ Total Occupants. |
-
----
 
 ##  License & Attribution
 - **Data Source**: NTSB Aviation Accident Database (public domain).  
