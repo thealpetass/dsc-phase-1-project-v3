@@ -87,9 +87,6 @@ https://github.com/thealpetass/dsc-phase-1-project-v3/blob/c381130e180c44113c255
    - **Landing phase** incidents with **Destroyed** outcome.  
 3. **Hover** on any bar or point for exact counts & percentages.
 
-![Image Alt](https://github.com/thealpetass/dsc-phase-1-project-v3/blob/861f4d5d1ed0b413ee0b3d1f64efb85616c28b8c/Overlook%20of%20my%20Dashboard.png)
-
-
 ##  Recommendations for Stakeholders
 
 | **Audience** | **Actionable Insight** |
