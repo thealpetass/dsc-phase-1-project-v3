@@ -32,6 +32,8 @@ Use it to spot high-risk aircraft, weather conditions, flight phases, and tempor
 
 >  **Action**: Prioritize recurrent training & maintenance programs on Cessna 172 fleet.
 
+https://github.com/thealpetass/dsc-phase-1-project-v3/blob/c381130e180c44113c25553fee1126f46038f821/Accidents%20by%20Aircraft%20Model.png
+
 ### 2. Accidents by Weather Condition (`Accidents by Weather Condition.png`)
 - **Weather is not directly labeled**, but counts per phase are:
   - **Landing** (≈5,500 events)  
@@ -39,6 +41,7 @@ Use it to spot high-risk aircraft, weather conditions, flight phases, and tempor
   - **Approach** (≈4,000 events)  
 - **Interpretation**: These phases coincide with **transitional weather** (low ceilings, gusty winds).  
 >  **Action**: Emphasize **weather briefing** & **go-around discipline** during Landing/Approach.
+
 
 ### 3. Accidents per Year (`Accidents per Year.png`)
 - **Historical Trend**:  
